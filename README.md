@@ -7,7 +7,7 @@ In this video, we'll be creating a real-time voting app using JavaScript and Soc
 
 
 
-[🔴 Youtube Tutorial Video](https://youtu.be/Ke7KQQJkhOU)
+[🔴 Youtube Tutorial Video](https://youtu.be/JbB7BL95CSw)
 
 
 If you want any answers related this project, You can Join My New Discord Server!
