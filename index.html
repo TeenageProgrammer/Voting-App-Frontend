@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://voting-app-server-57ji.onrender.com/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Your Favourite</h2>
+        <div class="progress-box" id="html">
+            <p>HTML</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="css">
+            <p>CSS</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="javascript">
+            <p>Javascript</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="react">
+            <p>React JS</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <div class="progress-box" id="python">
+            <p>Python</p>
+            <div class="progress-bar">
+                <span data="0%" class="percent-tag"></span>
+            </div>
+        </div>
+        <h3>Total Votes : <span id="totalVotes"></span></h3>
+    </div>
+    <h2 class="subscribe">Teenage Programmer &nbsp;&nbsp;<a href="https://www.youtube.com/@teenage-programmer" target="_blank"><img src="./subscribe.webp" alt="Subscribe"></a> </h2>
+    <script defer src="./script.js"></script>
+</body>
+</html>
